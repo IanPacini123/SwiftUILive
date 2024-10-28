@@ -8,11 +8,12 @@
 import SwiftUI
 
 struct PokemonListView: View {
-    let pokemonList = JSONReader().decodePokemons()!.pokemons
+    let viewModel = PokemonListViewModel()
+    
     var body: some View {
         List {
             Section {
-                ForEach(pokemonList) { pokemon in
+                ForEach(viewModel.pokemons) { pokemon in
                     PokemonCell(pokemon: pokemon)
                         .padding(.horizontal)
                 }
