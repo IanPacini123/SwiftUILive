@@ -11,12 +11,18 @@ struct PokemonListView: View {
     let pokemonList = JSONReader().decodePokemons()!.pokemons
     var body: some View {
         List {
-            ForEach(pokemonList) { pokemon in
-                PokemonCell(pokemon: pokemon)
-                    .padding(.horizontal)
+            Section {
+                ForEach(pokemonList) { pokemon in
+                    PokemonCell(pokemon: pokemon)
+                        .padding(.horizontal)
+                }
+            } header: {
+                Text("Pokemons!")
+                    .foregroundStyle(.black)
+                    .font(.title)
             }
         }
-        .listStyle(.grouped)
+        .listStyle(.plain)
     }
 }
 
