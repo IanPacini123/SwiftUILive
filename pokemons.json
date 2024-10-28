@@ -1,0 +1,28 @@
+{ "pokemons": [
+    {
+    "id": 0,
+    "name":"Charizard",
+    "sprite":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
+    },
+    {
+    "id": 1,
+    "name":"Squirtle",
+    "sprite":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
+    },
+    {
+    "id": 2,
+    "name":"Tangela",
+    "sprite":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png"
+    },
+    {
+    "id": 3,
+    "name":"Typhlosion",
+    "sprite":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/157.png"
+    },
+    {
+    "id": 4,
+    "name":"Sylveon",
+    "sprite":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/700.png"
+    }
+]
+}
